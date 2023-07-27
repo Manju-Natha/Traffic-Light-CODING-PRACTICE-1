@@ -1,33 +1,39 @@
-let stopLightElement = document.getElementById("stopLight");
-let readyLightElement = document.getElementById("readyLight");
-let goLightElement = document.getElementById("goLight");
-let stopButtonElement = document.getElementById("stopButton");
-let readyButtonElement = document.getElementById("readyButton");
-let goButtonElement = document.getElementById("goButton");
+let seasonSmallImageEl = document.getElementById("seasonSmallImage");
+let seasonMediumImageEl = document.getElementById("seasonMediumImage");
 
-function turnOnRed() {
-  stopLightElement.style.backgroundColor = "#cf1124";
-  readyLightElement.style.backgroundColor = "#4b5069";
-  goLightElement.style.backgroundColor = "#4b5069";
-  stopButtonElement.style.backgroundColor = "#cf1124";
-  readyButtonElement.style.backgroundColor = "#1f1d41";
-  goButtonElement.style.backgroundColor = "#1f1d41";
+let springsmallimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-spring-xs-img.png";
+let springmediumimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-spring-md-img.png";
+let summersmaillimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-summer-xs-img.png";
+let summermediumimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-summer-md-img.png";
+let sutumnsmallimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-autumn-xs-img.png";
+let sutumnmediumimage =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-autumn-xs-img.png";
+let wintersmallimgae =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-xs-img.png";
+let wintermediumimag =
+  "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-md-img.pnge";
+
+function changeseasonspring() {
+  seasonSmallImageEl.src = springsmallimage;
+  seasonMediumImageEl.src = springmediumimage;
 }
 
-function turnOnYellow() {
-  stopLightElement.style.backgroundColor = "#4b5069";
-  readyLightElement.style.backgroundColor = "#f7c948";
-  goLightElement.style.backgroundColor = "#4b5069";
-  stopButtonElement.style.backgroundColor = "#1f1d41";
-  readyButtonElement.style.backgroundColor = "#f7c948";
-  goButtonElement.style.backgroundColor = "#1f1d41";
+function changeseasonsummer() {
+  seasonSmallImageEl.src = summersmaillimage;
+  seasonMediumImageEl.src = summermediumimage;
 }
 
-function turnOnGreen() {
-  stopLightElement.style.backgroundColor = "#4b5069";
-  readyLightElement.style.backgroundColor = "#4b5069";
-  goLightElement.style.backgroundColor = "#199473";
-  stopButtonElement.style.backgroundColor = "#1f1d41";
-  readyButtonElement.style.backgroundColor = "#1f1d41";
-  goButtonElement.style.backgroundColor = "#199473";
+function changeseasonsautumn() {
+  seasonSmallImageEl.src = sutumnsmallimage;
+  seasonMediumImageEl.src = sutumnmediumimage;
+}
+
+function changeseasonswinter() {
+  seasonSmallImageEl.src = wintersmallimgae;
+  seasonMediumImageEl.src = wintermediumimag;
 }
