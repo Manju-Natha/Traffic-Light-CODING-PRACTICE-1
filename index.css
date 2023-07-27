@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.trafic-light_container {
+  background-color: #86d2f2;
+  padding: 20px;
+}
+
+.Traffic-heading {
+  font-family: Roboto;
+  color: #1f1d41;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #1f1d41;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.frafic-light {
+  background-color: #1f1d41;
+  width: 100px;
+  height: 330px;
+  border-radius: 40px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.bulp {
+  background-color: #4b5069;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
